@@ -1,0 +1,23 @@
+name: LobbyNoCMD
+version: '${project.version}'
+main: me.drazz.lobbynocmd.LobbyNoCMD
+api-version: '1.16'
+
+commands:
+  lobbynocmd:
+    description: Main Command
+    permission: lobbynocmd.commands
+    aliases:
+      - lnc
+      - lncmd
+
+permissions:
+  lobbynocmd.commands:
+    description: "Access to the '/lnc' to list all sub commands"
+    default: op
+  lobbynocmd.bypass:
+      description: "Bypass use cmd"
+      default: op
+  lobbynocmd.commands.reload:
+    description: "Access to the '/lnc reload' command"
+    default: op

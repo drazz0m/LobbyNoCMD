@@ -1,0 +1,6 @@
+allowed_commands:
+  - help
+  - spawn
+
+message_enabled: true
+denied_command_message: "§cВYou cannot use this command."
